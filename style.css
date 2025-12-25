@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #141e30, #243b55);
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#dayDate {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#clock {
+    font-size: 60px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.weather p {
+    font-size: 18px;
+    margin: 5px 0;
+}
